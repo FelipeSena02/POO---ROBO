@@ -6,8 +6,8 @@ public class Main2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        Robo robo1 = new Robo("Vermelho");
-        Robo robo2 = new Robo("Azul");
+        Robo robo1 = new Robo("\u001B[31m" + "Vermelho" + "\u001B[0m");
+        Robo robo2 = new Robo("\u001B[34m" + "Azul" + "\u001B[0m");
 
         System.out.println("Digite a posição do alimento (x y): ");
         int comidaX = scanner.nextInt();
@@ -29,7 +29,7 @@ public class Main2 {
 
             if (robo1.encontrouAlimento(comidaX, comidaY)) {
                 encontrado = true;
-                System.out.println("Robo 1 encontrou o alimento!");
+                System.out.println("Robo 1 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +") encontrou o alimento!");
                 break;
             }
 
@@ -44,14 +44,14 @@ public class Main2 {
 
             if (robo2.encontrouAlimento(comidaX, comidaY)) {
                 encontrado = true;
-                System.out.println("Robo 2 encontrou o alimento!");
+                System.out.println("Robo 2 ("+ "\u001B[31m" + "Vermelho" + "\u001B[0m" +") encontrou o alimento!");
                 break;
             }
         }
 
-        System.out.println("Movimentos válidos Robo 1: " + movimentosValidosRobo1);
-        System.out.println("Movimentos inválidos Robo 1: " + movimentosInvalidosRobo1);
-        System.out.println("Movimentos válidos Robo 2: " + movimentosValidosRobo2);
-        System.out.println("Movimentos inválidos Robo 2: " + movimentosInvalidosRobo2);
+        System.out.println("Movimentos válidos Robo 1 ("+ "\u001B[31m" + "Vermelho" + "\u001B[0m" +"): " + movimentosValidosRobo1);
+        System.out.println("Movimentos inválidos Robo 1 ("+ "\u001B[31m" + "Vermelho" + "\u001B[0m" +"): " + movimentosInvalidosRobo1);
+        System.out.println("Movimentos válidos Robo 2 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +"): " + movimentosValidosRobo2);
+        System.out.println("Movimentos inválidos Robo 2 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +"): " + movimentosInvalidosRobo1);
     }
 }
