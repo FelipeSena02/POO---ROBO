@@ -1,8 +1,10 @@
-package robo;
+package com.java.br.uece.aluno;
 
 public class Robo {
     private int x, y;
     private String cor;
+    private boolean ativo = true;
+    private String movimentoAnterior;
 
     public Robo(String cor) {
         this.cor = cor;
@@ -32,6 +34,22 @@ public class Robo {
 
     public void setCor(String cor) {
         this.cor = cor;
+    }
+    
+    public boolean getAtivo() {
+    	return ativo;
+    }
+    
+    public void setAtivo(boolean ativo) {
+    	this.ativo = ativo;
+    }
+    
+    public String getMovimentoAnterior() {
+    	return movimentoAnterior;
+    }
+    
+    public void setMovimentoAnterior(String movimento) {
+    	this.movimentoAnterior = movimento;
     }
     
     public void mover(String direcao) throws MovimentoInvalidoException {

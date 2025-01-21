@@ -1,4 +1,4 @@
-package robo;
+package com.java.br.uece.aluno;
 
 public class MovimentoInvalidoException extends Exception {
     public MovimentoInvalidoException(String mensagem) {
