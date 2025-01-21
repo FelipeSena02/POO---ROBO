@@ -52,6 +52,6 @@ public class Main2 {
         System.out.println("Movimentos válidos Robo 1 ("+ "\u001B[31m" + "Vermelho" + "\u001B[0m" +"): " + movimentosValidosRobo1);
         System.out.println("Movimentos inválidos Robo 1 ("+ "\u001B[31m" + "Vermelho" + "\u001B[0m" +"): " + movimentosInvalidosRobo1);
         System.out.println("Movimentos válidos Robo 2 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +"): " + movimentosValidosRobo2);
-        System.out.println("Movimentos inválidos Robo 2 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +"): " + movimentosInvalidosRobo1);
+        System.out.println("Movimentos inválidos Robo 2 ("+ "\u001B[34m" + "Azul" + "\u001B[0m" +"): " + movimentosInvalidosRobo2);
     }
 }
