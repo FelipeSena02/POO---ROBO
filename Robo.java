@@ -1,5 +1,4 @@
-package com.java.br.uece.aluno;
-
+package pacote;
 public class Robo {
     private int x, y;
     private String cor;

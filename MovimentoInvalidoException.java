@@ -1,5 +1,4 @@
-package com.java.br.uece.aluno;
-
+package pacote;
 public class MovimentoInvalidoException extends Exception {
     public MovimentoInvalidoException(String mensagem) {
         super(mensagem);

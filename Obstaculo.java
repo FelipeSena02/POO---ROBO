@@ -1,4 +1,5 @@
-package com.java.br.uece.aluno;
+
+package pacote;
 
 public abstract class Obstaculo {
 	protected int id;

@@ -1,4 +1,4 @@
-package com.java.br.uece.aluno;
+package pacote;
 
 public class Rocha extends Obstaculo {
     private int x, y;

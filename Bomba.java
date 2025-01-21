@@ -1,5 +1,4 @@
-package com.java.br.uece.aluno;
-
+package pacote;
 public class Bomba extends Obstaculo {
 	private int x, y;
 	
