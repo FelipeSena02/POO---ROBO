@@ -76,7 +76,7 @@ public class Main3 {
             }
         }
 
-        // Exibir o número total de movimentos
+        
         System.out.println("\nNúmero de movimentos:");
         System.out.println("Robô normal: " + movimentosNormal);
         System.out.println("Robô inteligente: " + movimentosInteligente);
